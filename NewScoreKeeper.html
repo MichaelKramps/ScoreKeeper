@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Score Keeper</title>
+<link type="text/css" rel="stylesheet" href="scoreKeeperStylesheet.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(window).scroll(function(event) {
+       $("#footer tfoot").css("margin-left", 0-$(document).scrollLeft());
+    });
+});
+</script>
+</head>
+<body>
+<h1><img src="ScoreKeeperLogo.png" alt="Score Keeper"></h1>
+<table id="table">
+    <thead>
+        <tr id="playersRow"><td>Players</td><td id="addPlayer">Add Player</td></tr>
+    </thead>
+    <tbody>
+        <tr class="scores"><td>Round 1</td><td id="submitScores">Submit Scores</td></tr>
+    </tbody>
+</table>
+    <table id="footer">
+        <tfoot>
+            <tr id="totalRow"><td>Total</td></tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+<script src="scoreKeeper.js"></script>

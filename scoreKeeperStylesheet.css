@@ -1,0 +1,174 @@
+body {
+    background-color: #fff;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+    color: #000;
+    border-style: none none solid;
+    border-color: black;
+    width: auto;
+}
+
+#addPlayer {
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #fff;
+    cursor: hand;
+    cursor: pointer;
+    background: -webkit-linear-gradient(#666, #333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666, #333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666, #333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666, #333); /* Standard syntax */
+}
+
+#submitScores {
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #fff;
+    cursor: hand;
+    cursor: pointer;
+    background: -webkit-linear-gradient(#666, #333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666, #333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666, #333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666, #333); /* Standard syntax */
+}
+
+#table td {
+    height: 55px;
+    min-width: 150px;
+    text-align: center;
+}
+
+#footer tfoot {
+    background-color: #fff;
+    border-style: solid none;
+    border-color: black;
+    position: fixed;
+    bottom: 0;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    margin-left: 0;
+}
+
+#footer tfoot td {
+    height: 55px;
+    text-align: center;
+    min-width: 150px;
+}
+
+#footer {
+    margin-top: 5em;
+    width: 100%;
+}
+
+.score {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.submitPlayer {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.editButton {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.Player1 {
+    color: #939;
+}
+
+.Player2 {
+    color: #f60;
+}
+
+.Player3 {
+    color: #36f;
+}
+
+.Player4 {
+    color: #0c0;
+}
+
+.Player5 {
+    color: #630;
+}
+
+.Player6 {
+    color: #099;
+}
+
+.Player7 {
+    color: #f30;
+}
+
+.Player8 {
+    color: #606;
+}
+
+.Player9 {
+    color: #f09;
+}
+
+.Player10 {
+    color: #396;
+}
+
+.Player11 {
+    color: #663;
+}
+
+.Player12 {
+    color: #c30;
+}
+
+.Player13 {
+    color: #966;
+}
+
+.Player14 {
+    color: #93c;
+}
+
+.Player15 {
+    color: #f39;
+}
+
+.Player16 {
+    color: #c93;
+}
+
+.Player17 {
+    color: #393;
+}
+
+.Player18 {
+    color: #600;
+}
+
+.Player19 {
+    color: #339;
+}
+
+.Player20 {
+    color: #f90;
+}
+
+.Player21 {
+    color: #000;
+}
+
+.Player22 {
+    color: #630;
+}
+
+.Player23 {
+    color: #99c;
+}
+
+.Player24 {
+    color: #936;
+}
